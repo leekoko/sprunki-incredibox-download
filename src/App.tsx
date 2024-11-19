@@ -11,6 +11,7 @@ import PlayPage from './pages/PlayPage';
 import ModPage from './pages/ModPage';
 import DownloadPage from './pages/DownloadPage';
 import CharactersPage from './pages/CharactersPage';
+import AnalyticsProvider from './components/AnalyticsProvider';
 
 function HomePage() {
   return (
@@ -35,17 +36,19 @@ function HomePage() {
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/play" element={<PlayPage />} />
-          <Route path="/mod" element={<ModPage />} />
-          <Route path="/download" element={<DownloadPage />} />
-          <Route path="/characters" element={<CharactersPage />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AnalyticsProvider>
+        <div className="min-h-screen bg-gray-50">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/play" element={<PlayPage />} />
+            <Route path="/mod" element={<ModPage />} />
+            <Route path="/download" element={<DownloadPage />} />
+            <Route path="/characters" element={<CharactersPage />} />
+          </Routes>
+          <Footer />
+        </div>
+      </AnalyticsProvider>
     </Router>
   );
 }
