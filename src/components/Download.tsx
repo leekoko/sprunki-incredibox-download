@@ -43,10 +43,10 @@ export default function DownloadSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-red-900 mb-4">
-            Download Sprunki
+            Get Your Sprunki Incredibox Download
           </h2>
           <p className="text-xl text-gray-600">
-            Play Sprunki on your favorite device
+            Choose Your Platform for Sprunki Incredibox Download
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function DownloadSection() {
               </div>
 
               <h3 className="text-2xl font-bold text-center mb-4">
-                {platform.name} Version
+                Sprunki Incredibox Download for {platform.name}
               </h3>
 
               <div className="space-y-4 mb-6">
@@ -76,7 +76,7 @@ export default function DownloadSection() {
                 <div className="flex items-center justify-between text-gray-600">
                   <span className="flex items-center">
                     <Shield className="w-5 h-5 mr-2" />
-                    Size
+                    Download Size
                   </span>
                   <span>{platform.size}</span>
                 </div>
@@ -84,7 +84,7 @@ export default function DownloadSection() {
                 <div className="flex items-center justify-between text-gray-600">
                   <span className="flex items-center">
                     <platform.deviceIcon className="w-5 h-5 mr-2" />
-                    Requires
+                    System Requirements
                   </span>
                   <span>{platform.requirements}</span>
                 </div>
@@ -94,21 +94,14 @@ export default function DownloadSection() {
                 href={platform.link}
                 className="block w-full bg-red-600 hover:bg-red-700 text-white text-center py-3 rounded-lg font-semibold transition-colors"
               >
-                Download for {platform.name}
+                Download Sprunki Incredibox for {platform.name}
               </a>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-gray-600 mb-4">
-            All versions include:
-          </p>
-          <div className="flex justify-center space-x-8">
-            <span className="text-gray-700">✓ No Ads</span>
-            <span className="text-gray-700">✓ Offline Mode</span>
-            <span className="text-gray-700">✓ Free Updates</span>
-          </div>
+        <div className="mt-12 text-center text-gray-600">
+          <p>Get your Sprunki Incredibox Download now and start creating amazing music!</p>
         </div>
       </div>
     </section>
