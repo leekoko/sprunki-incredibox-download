@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "play": "Play Sprunki",
+    "mod": "Mod",
+    "download": "Download",
+    "characters": "Characters"
+  },
+  "hero": {
+    "title": "Create Music & Beats Online",
+    "subtitle": "Download Sprunki Incredibox now and start your musical journey!"
+  },
+  "features": {
+    "title": "Why Get Sprunki Incredibox Download?",
+    "create": {
+      "title": "Create with Sprunki Incredibox Download",
+      "description": "Get your Sprunki Incredibox Download to mix and create unique musical masterpieces"
+    },
+    "share": {
+      "title": "Share Your Creations",
+      "description": "After your Sprunki Incredibox Download, share your beats with our global community"
+    },
+    "download": {
+      "title": "Instant Download Access",
+      "description": "Your Sprunki Incredibox Download works offline - create music anywhere, anytime"
+    },
+    "premium": {
+      "title": "Premium Features",
+      "description": "Unlock exclusive content with your Sprunki Incredibox Download and join competitions"
+    }
+  },
+  "footer": {
+    "language": "Language",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

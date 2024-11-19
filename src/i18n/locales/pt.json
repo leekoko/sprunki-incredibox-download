@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "play": "Jogar Sprunki",
+    "mod": "Mod",
+    "download": "Baixar",
+    "characters": "Personagens"
+  },
+  "hero": {
+    "title": "Crie Música e Batidas Online",
+    "subtitle": "Baixe o Sprunki Incredibox agora e comece sua jornada musical!"
+  },
+  "features": {
+    "title": "Por que baixar o Sprunki Incredibox?",
+    "create": {
+      "title": "Crie com o Sprunki Incredibox",
+      "description": "Obtenha seu Sprunki Incredibox para mixar e criar obras-primas musicais únicas"
+    },
+    "share": {
+      "title": "Compartilhe Suas Criações",
+      "description": "Após baixar o Sprunki Incredibox, compartilhe suas batidas com a comunidade global"
+    },
+    "download": {
+      "title": "Acesso Instantâneo para Download",
+      "description": "Seu Sprunki Incredibox funciona offline - crie música em qualquer lugar, a qualquer hora"
+    },
+    "premium": {
+      "title": "Recursos Premium",
+      "description": "Desbloqueie conteúdo exclusivo com seu Sprunki Incredibox e participe de competições"
+    }
+  },
+  "footer": {
+    "language": "Idioma",
+    "about": "Sobre",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  }
+}

@@ -2,23 +2,23 @@ import { Users, Music, Star } from 'lucide-react';
 
 const characters = [
   {
-    name: "The Beatboxer",
-    description: "Master of rhythm and beats",
+    name: "The Sprunki Incredibox Beatboxer",
+    description: "Master of rhythm and beats in Sprunki Incredibox",
     abilities: ["Complex rhythms", "Bass beats", "Vocal percussion"]
   },
   {
-    name: "The Melodist",
-    description: "Creates beautiful melodies",
+    name: "The Sprunki Incredibox Melodist",
+    description: "Creates beautiful melodies in Sprunki Incredibox",
     abilities: ["Harmonies", "Vocal runs", "Melodic patterns"]
   },
   {
-    name: "The Effects Master",
-    description: "Adds special sound effects",
+    name: "The Sprunki Incredibox Effects Master",
+    description: "Adds special sound effects to Sprunki Incredibox",
     abilities: ["Sound effects", "Transitions", "Ambient sounds"]
   },
   {
-    name: "The Bass King",
-    description: "Provides the foundation",
+    name: "The Sprunki Incredibox Bass King",
+    description: "Provides the foundation for Sprunki Incredibox beats",
     abilities: ["Deep bass", "Grooves", "Rhythmic patterns"]
   }
 ];
@@ -30,8 +30,11 @@ export default function CharactersPage() {
         <h1 className="text-4xl font-bold text-center text-red-900 mb-8">
           Sprunki Incredibox Characters
         </h1>
-        <p className="text-lg text-center text-gray-600 mb-12">
+        <p className="text-lg text-center text-gray-600 mb-6">
           Meet the amazing characters that make Sprunki Incredibox unique. Each character brings their own style and sound!
+        </p>
+        <p className="text-md text-center text-gray-500 mb-12">
+          Discover how each Sprunki Incredibox character contributes to creating incredible music.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">

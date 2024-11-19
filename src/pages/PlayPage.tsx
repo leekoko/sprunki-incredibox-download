@@ -8,13 +8,16 @@ export default function PlayPage() {
         <h1 className="text-4xl font-bold text-center text-red-900 mb-8">
           Play Sprunki Incredibox Online
         </h1>
-        <p className="text-lg text-center text-gray-600 mb-12">
-          Create amazing beats and music right in your browser! Mix different sounds and discover new combinations.
+        <p className="text-lg text-center text-gray-600 mb-6">
+          Experience Sprunki Incredibox directly in your browser! Create amazing beats and discover new musical combinations.
+        </p>
+        <p className="text-md text-center text-gray-500 mb-12">
+          Sprunki Incredibox brings you the most intuitive and fun music creation experience online.
         </p>
         <GameArea />
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-center text-red-900 mb-8">
-            Popular Game Modes
+            Popular Sprunki Incredibox Game Modes
           </h2>
           <GameGrid />
         </div>

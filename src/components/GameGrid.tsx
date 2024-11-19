@@ -8,25 +8,25 @@ interface Game {
 const games: Game[] = [
   {
     title: "Sprunki Retake",
-    image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=300",
+    image: "/images/games/1.png",
     rating: 4.5,
     description: "Experience the new retake!"
   },
   {
     title: "Incredibox Mustard",
-    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&w=300",
+    image: "/images/games/2.jpg",
     rating: 4.5,
     description: "Create mustard beats!"
   },
   {
     title: "Sprunki Incredibox",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=300",
+    image: "/images/games/3.jpg",
     rating: 4.7,
     description: "Create spunky beats!"
   },
   {
     title: "Sprunki Mustard",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=300",
+    image: "/images/games/4.webp",
     rating: 4.6,
     description: "Mustard-themed fun!"
   }
