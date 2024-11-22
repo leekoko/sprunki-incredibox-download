@@ -9,10 +9,10 @@ export default function DownloadPage() {
           Download Sprunki Incredibox
         </h1>
         <p className="text-lg text-center text-gray-600 mb-6">
-          Get ready to create amazing music with Sprunki Incredibox! Download Sprunki Incredibox for your preferred platform.
+          Get ready to create amazing music with <a href="https://sprunkiincredibox.download" className="text-gray-600 no-underline hover:text-gray-600">Sprunki Incredibox</a>! Download Sprunki Incredibox for your preferred platform.
         </p>
         <p className="text-md text-center text-gray-500 mb-12">
-          Join millions of players worldwide enjoying Sprunki Incredibox - the ultimate music creation game.
+          Join millions of players worldwide enjoying <a href="https://sprunkiincredibox.download" className="text-gray-500 no-underline hover:text-gray-500">Sprunki Incredibox</a> - the ultimate music creation game.
         </p>
         
         <Download />

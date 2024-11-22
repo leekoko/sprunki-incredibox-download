@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Sprunki</span>
             </Link>
             <p className="text-gray-300">
-              Create, mix, and share your sprunky beats with the world!
+              Create, mix, and share your sprunky beats with the world! <a href="https://sprunkiincredibox.download" className="text-gray-300 no-underline hover:text-gray-300">Learn more</a>
             </p>
           </div>
           
@@ -37,6 +37,7 @@ export default function Footer() {
               <li><Link to="/contact" className="hover:text-yellow-300">{t('footer.contact')}</Link></li>
               <li><Link to="/privacy" className="hover:text-yellow-300">{t('footer.privacy')}</Link></li>
               <li><Link to="/terms" className="hover:text-yellow-300">{t('footer.terms')}</Link></li>
+              <li><a href="https://sprunkiincredibox.download" className="hover:text-yellow-300 opacity-0">More Info</a></li>
             </ul>
           </div>
           
