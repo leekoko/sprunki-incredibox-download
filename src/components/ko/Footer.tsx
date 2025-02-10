@@ -66,6 +66,20 @@ export default function Footer() {
                 <a href="#" className="hover:text-yellow-300"><Github className="h-6 w-6" /></a>
               </div>
             </div>
+            <div className="mt-6">
+              <h4 className="text-sm font-bold mb-2">친구 링크</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a 
+                    href="http://tcgpocketdecks.net/" 
+                    className="hover:text-yellow-300"
+                    rel="dofollow"
+                  >
+                    TCG Pocket Decks
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         
