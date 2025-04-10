@@ -52,3 +52,5 @@ Welcome to follow my cal：
 [https://cal.com/ghibli-ai-generator](https://cal.com/ghibli-ai-generator)
 
 [https://www.creem.io/bip/leekoko](https://www.creem.io/bip/leekoko)
+
+[https://share.evernote.com/note/c80cf61f-5ebb-a836-c3cb-3dddbfcf4308](https://share.evernote.com/note/c80cf61f-5ebb-a836-c3cb-3dddbfcf4308)
